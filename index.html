@@ -249,24 +249,35 @@
         <a-entity scale="0 0 0" class="groups" id="Group-9" visible="false">
 
             <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
-                material="src: #Arrow-1; transparent:true"             position="2.03164 -1.00689 -1.37599" rotation="-84.70321564316525 -66.71692453841845 86.06341744880582" 
+                material="src: #Arrow-1; transparent:true"    
+                         position="2.03164 -1.00689 -1.37599" rotation="-84.70321564316525 -66.71692453841845 86.06341744880582" 
 
                 the_dote="Name_of_dote: Dote-8 ; Group_to_activate: Group-8 ; The_rotation: 0">
             </a-plane>
 
-            
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true"    
+                position="-3.40197 -1.00689 -1.0718" rotation="-78.68200217413542 -25.59975428644518 44.599607730778416"
 
+
+                the_dote="Name_of_dote: Dote-10 ; Group_to_activate: Group-10 ; The_rotation: 0">
+            </a-plane>
+
+     
+
+            
         </a-entity>
         <!-- Group-10 -->
         <a-entity scale="0 0 0" class="groups" id="Group-10" visible="false">
 
             <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
-                material="src: #Arrow-1; transparent:true" position="0.82863 -1.49446 4.87812"
-                rotation="-65.12181003677424 -156.25074735233167 169.7702594862386"
-                the_dote="Name_of_dote: Dote-8 ; Group_to_activate: Group-8 ; The_rotation: 0">
+                material="src: #Arrow-1; transparent:true"   
+                           position="4.10775 -1.49446 1.53289" rotation="-65.12181003677424 -156.25074735233167 169.7702594862386"
+
+                the_dote="Name_of_dote: Dote-9 ; Group_to_activate: Group-9 ; The_rotation: 0">
             </a-plane>
 
-     
+          
 
         </a-entity>
         <!-- Group-11 -->
@@ -360,7 +371,7 @@
             the_group_to_activate.setAttribute('visible', 'true')
             the_group_to_activate.setAttribute('scale', '1 1 1')
         }
-        setStrat(1)
+        setStrat(0)
         //############################################
 
         AFRAME.registerComponent('the_dote', {
